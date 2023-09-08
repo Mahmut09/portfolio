@@ -22,7 +22,7 @@ const Nav = () => {
                         <Link
                             key={index}
                             to={link.to}
-                            className={`cursor-pointer w-[60px] h-[60px] flex items-center justify-center ${location.pathname === link.to ? 'active' : ''
+                            className={`cursor-pointer transition w-[60px] h-[60px] flex items-center justify-center hover:text-white ${location.pathname === link.to ? 'active' : ''
                                 }`}
                         >
                             {link.icon}

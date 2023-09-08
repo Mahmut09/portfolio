@@ -31,17 +31,14 @@ const Services = () => {
         <div className="container mx-auto">
             <div className='flex flex-col lg:flex-row'>
                 {/* text */}
-                <motion.div
-                    className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'
-                    variants={fadeIn('down', 0.5)}
-                    initial="hidden"
-                    whileInView={'show'}
-                    viewport={{ once: false, amount: 0.3 }}
+                <div
+                    className='flex-1 mb-12 lg:mb-0 lg:py-8'
                 >
                     <h2 className='h2 text-accent mb-6'>What I Do.</h2>
                     <h3 className='h3 max-w-[455px] mb-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                    <button className='btn btn-sm'>See my works</button>
-                </motion.div>
+                    <button className='btn btn-sm mb-6'>See my works</button>
+                    <div className='lg:bg-services bg-contain mix-blend-color-dodge bg-no-repeat rounded-full h-[60%] transition hover:shadow'></div>
+                </div>
 
                 {/* services */}
                 <motion.div

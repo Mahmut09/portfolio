@@ -7,6 +7,22 @@ import { fadeIn } from '../variants';
 
 
 const Banner = () => {
+
+    const socialLinks = [
+        {
+            icon: <FaGithub />,
+            href: "https://google.com",
+        },
+        {
+            icon: <FaYoutube />,
+            href: "https://google.com",
+        },
+        {
+            icon: <FaDribbble />,
+            href: "https://google.com",
+        },
+    ]
+
     return (
         <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
             <div className="container mx-auto">
@@ -78,15 +94,16 @@ const Banner = () => {
                             whileInView={'show'}
                             viewport={{ once: false, amount: 0.7 }}
                         >
-                            <a href="https://google.com">
-                                <FaGithub />
-                            </a>
-                            <a href="https://google.com">
-                                <FaYoutube />
-                            </a>
-                            <a href="https://google.com">
-                                <FaDribbble />
-                            </a>
+                            {socialLinks.map((link, index) => (
+                                <a
+                                    key={index}
+                                    href={link.href}
+                                    target='_blank'
+                                    className='transition hover:shadow'
+                                >
+                                    {link.icon}
+                                </a>
+                            ))}
                         </motion.div>
 
                     </div>
