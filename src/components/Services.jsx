@@ -27,7 +27,7 @@ const services = [
 ]
 
 const Services = () => {
-    return <div className='section' id='services'>
+    return <section className='section' id='services'>
         <div className="container mx-auto">
             <div className='flex flex-col lg:flex-row'>
                 {/* text */}
@@ -73,7 +73,7 @@ const Services = () => {
                                         <BsArrowUpRight />
                                     </a>
                                     <a
-                                        href="#"
+                                        href="https://google.com"
                                         className='text-gradient text-sm text-center'
                                     >
                                         {service.link}
@@ -86,7 +86,7 @@ const Services = () => {
 
             </div>
         </div>
-    </div>;
+    </section>;
 };
 
 export default Services;

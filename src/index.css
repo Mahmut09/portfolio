@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    overflow-x: hidden;
+}
+
 .btn {
     background: linear-gradient(92.23deg,
             #ff56f6 21.43%,
@@ -68,6 +72,6 @@
     }
 
     .section {
-        @apply py-8 lg:py-24 lg:h-screen flex items-center;
+        @apply py-8 lg:py-24 lg:h-screen flex items-center pt-2;
     }
 }
