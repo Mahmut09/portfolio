@@ -1,25 +1,24 @@
 import React from 'react';
 import Image from '../assets/avatar.svg';
-import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-
 
 const Banner = () => {
 
     const socialLinks = [
         {
             icon: <FaGithub />,
-            href: "https://google.com",
+            href: "https://github.com",
         },
         {
-            icon: <FaYoutube />,
-            href: "https://google.com",
+            icon: <FaInstagram />,
+            href: "https://instagram.com",
         },
         {
-            icon: <FaDribbble />,
-            href: "https://google.com",
+            icon: <FaLinkedin />,
+            href: "https://linkedin.com",
         },
     ]
 
@@ -29,13 +28,13 @@ const Banner = () => {
                 <div className='flex flex-col gap-y-8 items-center lg:flex-row lg:gap-x-12'>
                     <div className='flex-1 text-center font-secondary lg:text-left'>
                         <motion.h1
-                            className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'
+                            className='text-[55px] font-bold leading-[0.8] lg:text-[110px] uppercase'
                             variants={fadeIn('up', 0.3)}
                             initial="hidden"
                             whileInView={'show'}
                             viewport={{ once: false, amount: 0.7 }}
                         >
-                            BEN <span>AIDEN</span>
+                            Askerbek <span>Mahmut</span>
                         </motion.h1>
 
                         <motion.div
@@ -50,9 +49,9 @@ const Banner = () => {
                                 sequence={[
                                     'Developer',
                                     2000,
-                                    'Designer',
+                                    'Mentor',
                                     2000,
-                                    'Youtuber',
+                                    'Athlete',
                                     2000,
                                 ]}
                                 speed={50}
@@ -99,6 +98,7 @@ const Banner = () => {
                                     key={index}
                                     href={link.href}
                                     target='_blank'
+                                    rel='noreferrer'
                                     className='transition hover:shadow'
                                 >
                                     {link.icon}

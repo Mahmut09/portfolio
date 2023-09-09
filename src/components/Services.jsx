@@ -5,8 +5,8 @@ import { fadeIn } from '../variants';
 
 const services = [
     {
-        name: "UI/UX Design",
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae blanditiis fugit delectus, fugiat iusto ipsam nam non, aliquid laborum illo ab accusantium ut error ratione consequuntur voluptatem ea animi! Voluptates!",
+        name: "Development",
+        description: "Illo ab accusantium ut error ratione consequuntur voluptatem ea animi! Voluptates!",
         link: "Learn more",
     },
     {
@@ -15,13 +15,13 @@ const services = [
         link: "Learn more",
     },
     {
-        name: "Digital Marketing",
-        description: "Aliquid laborum illo ab accusantium ut error ratione consequuntur voluptatem ea animi! Voluptates!",
+        name: "Development",
+        description: "Illo ab accusantium ut error ratione consequuntur voluptatem ea animi! Voluptates!",
         link: "Learn more",
     },
     {
-        name: "Digital Marketing",
-        description: "Aliquid laborum illo ab accusantium ut error ratione consequuntur voluptatem ea animi! Voluptates!",
+        name: "Development",
+        description: "Illo ab accusantium ut error ratione consequuntur voluptatem ea animi! Voluptates!",
         link: "Learn more",
     },
 ]

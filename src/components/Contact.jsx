@@ -4,7 +4,7 @@ import { fadeIn } from '../variants';
 
 const Contact = () => {
     return (
-        <section className='py-16 lg:section' id='contact'>
+        <section className='py-16 lg:py-0 lg:section' id='contact'>
             <div className="container mx-auto">
                 <div className='flex flex-col lg:flex-row lg:items-center'>
                     {/* text */}
@@ -29,17 +29,17 @@ const Contact = () => {
                         viewport={{ once: false, amount: 0.3 }}
                     >
                         <input
-                            className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus-within:border-accent transition-all'
+                            className='bg-transparent transition border-b py-3 outline-none w-full placeholder:text-white focus:border-accent'
                             type="text"
                             placeholder='Your name'
                         />
                         <input
-                            className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus-within:border-accent transition-all'
+                            className='bg-transparent transition border-b py-3 outline-none w-full placeholder:text-white focus:border-accent'
                             type="text"
                             placeholder='Your email'
                         />
                         <textarea
-                            className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus-within:border-accent transition-all resize-none mb-12'
+                            className='bg-transparent transition border-b py-3 outline-none w-full placeholder:text-white focus:border-accent resize-none mb-12'
                             placeholder='Your message'
                         ></textarea>
                         <button className="btn btn-lg">Send message</button>

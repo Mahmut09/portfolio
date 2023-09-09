@@ -36,7 +36,7 @@ const About = () => {
                     >
                         <h2 className='h2 text-accent'>About me.</h2>
                         <h3 className='h3 mb-4'>
-                            I'am Freelance Front-end Developer with over 5 yaers of experience.
+                            I'am Front-end Developer with over 2 yaers of experience.
                         </h3>
                         <p className='mb-6'>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et unde tempore possimus, excepturi sint perferendis. Adipisci tempore, ad minus deleniti laborum ea? Assumenda, temporibus quas inventore aperiam ab fugit atque?
@@ -50,7 +50,7 @@ const About = () => {
                                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                                     {
                                         inView ?
-                                            <CountUp start={0} end={13} duration={3} />
+                                            <CountUp start={0} end={2} duration={3} />
                                             :
                                             null
                                     }
@@ -64,11 +64,11 @@ const About = () => {
                                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                                     {
                                         inView ?
-                                            <CountUp start={0} end={15} duration={3} />
+                                            <CountUp start={0} end={50} duration={3} />
                                             :
                                             null
                                     }
-                                    k+
+                                    +
                                 </div>
                                 <div className="font-primary text-sm tracking-[2px]">
                                     Projects <br />
@@ -79,15 +79,15 @@ const About = () => {
                                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                                     {
                                         inView ?
-                                            <CountUp start={0} end={12} duration={3} />
+                                            <CountUp start={0} end={7} duration={3} />
                                             :
                                             null
                                     }
-                                    k+
+                                    
                                 </div>
                                 <div className="font-primary text-sm tracking-[2px]">
-                                    Satisfied <br />
-                                    Clients
+                                    Hackathon wins <br />
+                                    and Awards
                                 </div>
                             </div>
 
