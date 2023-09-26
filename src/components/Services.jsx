@@ -5,23 +5,23 @@ import { fadeIn } from '../variants';
 
 const services = [
     {
-        name: "Development",
-        description: "Illo ab accusantium ut error ratione consequuntur voluptatem ea animi! Voluptates!",
+        name: "React",
+        description: "I have been using React & Redux Toolkit for web application development for over a year.",
         link: "Learn more",
     },
     {
-        name: "Development",
-        description: "Illo ab accusantium ut error ratione consequuntur voluptatem ea animi! Voluptates!",
+        name: "Vanilla JavaScript",
+        description: "I also have experience in creating applications in pure JavaScript without using frameworks.",
         link: "Learn more",
     },
     {
-        name: "Development",
-        description: "Illo ab accusantium ut error ratione consequuntur voluptatem ea animi! Voluptates!",
+        name: "Html & Css",
+        description: "I have excellent skills in responsive and cross-browser web development using the Sass preprocessor.",
         link: "Learn more",
     },
     {
-        name: "Development",
-        description: "Illo ab accusantium ut error ratione consequuntur voluptatem ea animi! Voluptates!",
+        name: "Learning",
+        description: "I'm also studying other areas in IT, such as blockchain development with Solidity and game development using the CryEngine 5 engine",
         link: "Learn more",
     },
 ]

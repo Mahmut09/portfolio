@@ -68,7 +68,7 @@ const Banner = () => {
                             whileInView={'show'}
                             viewport={{ once: false, amount: 0.7 }}
                         >
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, vitae harum. Eum, mollitia? Natus ducimus eum quasi Lorem ipsum dolor sit amet.
+                            Welcome to my web developer portfolio, where I showcase my most recent and impressive works in the field of web development. As a dedicated and passionate web developer, I have the privilege of working on a diverse range of projects that reflect my skills, creativity, and commitment to delivering high-quality websites and web applications. Explore this page to get a glimpse of my latest works and the technologies I've used to bring them to life.
                         </motion.p>
 
                         <motion.div
@@ -81,7 +81,7 @@ const Banner = () => {
                             <button className='btn btn-lg'>
                                 Contact me
                             </button>
-                            <a href="https://google.com" className='text-gradient btn-link'>
+                            <a href="#" className='text-gradient btn-link'>
                                 My Portfolio
                             </a>
                         </motion.div>

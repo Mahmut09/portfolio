@@ -20,7 +20,7 @@ const About = () => {
             >
                 <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen'>
                     <motion.div
-                        className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'
+                        className='flex-1 bg-about bg-contain bg-no-repeat rounded-bl-md h-[640px] mix-blend-lighten bg-top '
                         variants={fadeIn('right', 0.3)}
                         initial="hidden"
                         whileInView={"show"}
@@ -44,7 +44,7 @@ const About = () => {
 
                         {/* stats */}
 
-                        <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
+                        <div className='flex gap-x-6 py-6 lg:py-0 lg:gap-x-10 mb-12'>
 
                             <div>
                                 <div className='text-[40px] font-tertiary text-gradient mb-2'>

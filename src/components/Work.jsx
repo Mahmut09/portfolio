@@ -23,8 +23,8 @@ const Work = () => {
                                 My Latest <br />
                                 Work.
                             </h2>
-                            <p className="max-w-sm mb-12 font-medium">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, vero dolorum. Voluptatum autem quod porro inventore! Commodi, velit inventore totam accusamus iusto.
+                            <p className="max-w-sm mb-12 font-medium min-h-[130px]">
+                            Here you can take a look at my recent projects and view them in more detail by clicking on any card.
                             </p>
                             <button className="btn btn-sm">View all projects</button>
                         </div>
@@ -32,14 +32,14 @@ const Work = () => {
                             className='group relative overflow-hidden border-2 border-white/50 rounded-xl'
                         >
                             {/* image */}
-                            <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+                            <a href='' className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></a>
                             <img
                                 className='group-hover:scale-125 transition-all duration-500'
                                 src={Img1}
                                 alt="#"
                             />
                             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                                <span className='text-gradient'>UI/UX Design</span>
+                                <span className='text-gradient'>Development</span>
                             </div>
                             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50'>
                                 <span className='text-3xl text-white'>Project Title</span>
@@ -57,14 +57,14 @@ const Work = () => {
                             viewport={{ once: false, amount: 0.3 }}
                         >
                             {/* image */}
-                            <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+                            <a href='' className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></a>
                             <img
                                 className='group-hover:scale-125 transition-all duration-500'
                                 src={Img2}
                                 alt="#"
                             />
                             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                                <span className='text-gradient'>UI/UX Design</span>
+                                <span className='text-gradient'>Development</span>
                             </div>
                             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50'>
                                 <span className='text-3xl text-white'>Project Title</span>
@@ -80,14 +80,14 @@ const Work = () => {
                             viewport={{ once: false, amount: 0.3 }}
                         >
                             {/* image */}
-                            <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+                            <a href='' className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></a>
                             <img
                                 className='group-hover:scale-125 transition-all duration-500'
                                 src={Img3}
                                 alt="#"
                             />
                             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                                <span className='text-gradient'>UI/UX Design</span>
+                                <span className='text-gradient'>Development</span>
                             </div>
                             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50'>
                                 <span className='text-3xl text-white'>Project Title</span>
